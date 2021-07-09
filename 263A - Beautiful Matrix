@@ -1,0 +1,29 @@
+//https://codeforces.com/contest/263/submission/121809863
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int arr[5][5] ={0};//initial all elements to zero
+    int i1,j1,steps;//i1->first index of 1 j1->second index of 1 steps->sum of steps to be beautiful matrix
+
+   for(int i=0;i<5;i++){
+    for(int j=0;j<5;j++){
+        cin>>arr[i][j];//for fill elements of array
+        if(arr[i][j]==1){
+            i1=i;
+            j1=j;
+        }
+
+
+
+    }
+   }
+    i1=abs(i1-2);
+    j1=abs(j1-2);
+    steps=i1+j1;
+    cout<<steps;
+
+    return 0;
+}
