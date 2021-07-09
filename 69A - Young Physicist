@@ -1,0 +1,26 @@
+// https://codeforces.com/contest/69/submission/121778901
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,x,y,z;
+    int sx=0,sy=0,sz=0;//s->sum
+    cin>>n;
+    for(int i=0;i<n;i++)   //while(n--)
+    {
+
+       cin>>x>>y>>z;
+        sx+=x;
+        sy+=y;
+        sz+=z;
+
+    }
+    if(sx==0 && sy==0 && sz==0)
+        cout<<"YES";
+    else
+        cout<<"NO";
+
+    return 0;
+}
